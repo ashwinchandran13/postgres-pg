@@ -25,5 +25,10 @@ app.get('/users/:id', db.getUserById);
 app.post('/users', db.createUser);
 app.put('/users/:id', db.updateUser);
 app.delete('/users/:id', db.deleteUser);
+app.post('/teams', db.createTeam);
+app.get('/teams/:id', db.deleteUser);
+app.get('/findTeam/:id', db.findTeam)
+app.post('/addTeam/:userid/:teamid', db.addTeam);
+
 
 

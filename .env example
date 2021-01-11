@@ -1,0 +1,5 @@
+DB_USER=postgresusername
+DB_HOST=hostname
+DB_NAME=databasename
+DB_PASSWORD=password
+DB_PORT=portnumber
